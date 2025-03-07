@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*HARSHA [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*HARSHA [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*HARSHA_MD BOT PAIR*`;
             const mg = `🛑 *Do not share this code to plese* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://www.facebook.com/share/p/1DM3hJzipS/",
+                url: "https://raw.githubusercontent.com/harshawjj/HARSHA-HELP/refs/heads/main/images%20(3).jpeg",
               },
               caption: sid,
             });
